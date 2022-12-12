@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Neo4j Log Reader by Ganister.eu</title>
+</head>
+
+<script src="node_modules\@zip.js\zip.js\dist\zip-fs-full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/ag-grid-community.min.js"></script>
+<script src="index.js"></script>
+
+<body>
+  <h1>Neo4j Log Reader</h1>
+  <h2>Log File</h2>
+  <input type="file" id="fileInput" />
+  <button id="readButton" onclick="readLogFile()">Read</button>
+
+  <h2>Data Reader</h2>
+  <div id="myGrid" style="height: 500px; width:100%;" class="ag-theme-alpine"></div>
+</body>
+
+
+</html>

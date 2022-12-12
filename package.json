@@ -1,0 +1,15 @@
+{
+  "name": "neo4jlogreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "module": "index.js",
+  "dependencies": {
+    "@zip.js/zip.js": "^2.6.60",
+  }
+}
