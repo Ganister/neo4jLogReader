@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
   gridDiv.addEventListener('click', function (event) {
     const selectedRow = gridOptions.api.getSelectedRows();
     navigator.clipboard.writeText(selectedRow[0]?.query);
+    // copy the query to the textarea logDetails
+    document.getElementById('logDetails').value = selectedRow[0]?.query;
   });
 });
 
